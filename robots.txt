@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://support.kluzar.com/sitemap.xml
