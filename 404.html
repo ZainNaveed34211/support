@@ -5,13 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found — Kluzar Support</title>
 <link rel="icon" href="/favicon.png">
-<style>body{margin:0;background:#E9E8E8;color:#171717;font-family:Inter,system-ui,sans-serif;line-height:1.6}main{max-width:640px;margin:0 auto;padding:64px 20px;text-align:center}h1{font-family:Manrope,sans-serif;font-size:40px} a{color:#5F3EC1} .btn{display:inline-block;margin-top:16px;background:#171717;color:#fff;text-decoration:none;padding:12px 24px;border-radius:61px}</style>
+<style>
+@font-face{font-family:"Inter";font-weight:400;font-display:swap;src:url(/assets/framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:500;font-display:swap;src:url(/assets/framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2) format("woff2")}
+@font-face{font-family:"Inter";font-weight:700;font-display:swap;src:url(/assets/framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2) format("woff2")}
+@font-face{font-family:"Manrope";font-weight:700;font-display:swap;src:url(/assets/fonts.gstatic.com/s/manrope/v23/xn7gYHE41ni1AdIRggqxSuXd.woff2) format("woff2")}
+*{box-sizing:border-box}
+body{margin:0;background:#E9E8E8;color:#171717;font-family:"Inter",system-ui,sans-serif;line-height:1.6}
+main{max-width:640px;margin:0 auto;padding:64px 20px;text-align:center;animation:kluzar-rise .7s cubic-bezier(.22,1,.36,1) both}
+main img{height:40px;width:auto;display:block;margin:0 auto 24px}
+h1{font-family:"Manrope",sans-serif;font-size:40px;line-height:1.1;letter-spacing:-0.02em;margin:0 0 12px}
+p{color:#737373;margin:8px 0}
+.row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px}
+.btn{display:inline-block;background:#171717;color:#fff;text-decoration:none;padding:12px 24px;border-radius:61px;font-weight:500;transition:transform .25s ease,background .25s ease}
+.btn:hover{transform:translateY(-1px);background:#5F3EC1}
+.foot{margin-top:40px;color:#737373;font-size:14px}
+.foot a{color:#171717;text-decoration:none}
+@keyframes kluzar-rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
 </head>
 <body>
 <main>
+<a href="https://kluzar.com/"><img src="/logo.png" alt="Kluzar" width="120" height="60"></a>
 <h1>Page not found</h1>
-<p>This support page does not exist.</p>
-<p><a class="btn" href="https://support.kluzar.com/">Back to Support</a> <a class="btn" href="https://kluzar.com/">Kluzar home</a></p>
+<p>The page you are looking for does not exist, or it has moved.</p>
+<div class="row">
+<a class="btn" href="https://support.kluzar.com/">Back to Support</a>
+<a class="btn" href="https://kluzar.com/">Kluzar home</a>
+<a class="btn" href="https://support.kluzar.com/">Support</a>
+</div>
+<p class="foot">© Kluzar 2026 · <a href="mailto:info@kluzar.com">info@kluzar.com</a></p>
 </main>
 </body>
 </html>
